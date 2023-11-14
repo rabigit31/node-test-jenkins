@@ -1,4 +1,4 @@
-FROM node: 12.2.0-apline
+FROM node: 18
 WORKDIR app
 COPY . .
 RUN npm install 
